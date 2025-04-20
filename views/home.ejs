@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AUTOMAX Workshop - MANIT Robotics Club</title>
+  <link href="/css/responsive.css" rel="stylesheet">
+  <link href="/css/style.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="/images/logorobomanit.png" alt="Logo">
+    </div>
+    <h1>AUTOMAX - Robotics Workshop</h1>
+    <p>Organized by Robotics Club, MANIT</p>
+  </header>
+
+  <div class="container">
+    <div class="description">
+      <h2>About the Workshop</h2>
+      <p>Join us for a thrilling 2-day workshop on Robotics at MANIT! AUTOMAX will take you through hands-on experience with Arduino microcontrollers, hardware interfacing, sensors, Computer Aided Design (CAD), and much more. Dive into the world of robotics and bring your ideas to life!</p>
+    </div>
+
+    <form id="registrationForm" method="post" action="/register">
+      <h2>Register Now</h2>
+      <div class="form-group">
+        <label>Full Name</label>
+        <input type="text"  name="name" required />
+      </div>
+      <div class="form-group">
+        <label>Email Address</label>
+        <input type="email" name="email" required />
+      </div>
+      <div class="form-group">
+        <label>Phone Number</label>
+        <input type="tel"  name="phone" required />
+      </div>
+      <div class="form-group">
+        <label>Scholar Number</label>
+        <input type="text"  name="schlno" required />
+      </div>
+      <div class="form-group">
+        <label >Section</label>
+        <input type="text"  name="section" required />
+      </div>
+      <div class="form-group">
+        <label >Branch</label>
+        <input type="text"  name="branch" required />
+      </div>
+      <div class="form-group">
+        <label >Year of Study</label>
+        <select  name="year">
+          <option value="1st">1st Year</option>
+          <option value="2nd">2nd Year</option>
+          <option value="3rd">3rd Year</option>
+          <option value="4th">4th Year</option>
+        </select>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  <script src="/js/file.js"></script>
+</body>
+</html>

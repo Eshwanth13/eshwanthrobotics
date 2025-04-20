@@ -1,0 +1,15 @@
+@media (max-width: 737px) {
+    header h1 {
+      font-size: 2rem;
+    }
+    .container {
+      padding: 1rem;
+    }
+    .logo-container {
+      display: flex;
+      flex-direction: column;
+      top: 0.5rem;
+      right: 0.5rem;
+      opacity: 0.5;
+    } 
+  }
